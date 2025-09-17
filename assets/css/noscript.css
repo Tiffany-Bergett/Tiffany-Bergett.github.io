@@ -11,11 +11,11 @@
 
 	#wrapper {
 		background-color: #212931;
-		background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/Portfolio Background.png");
-		background-size: auto,								auto,														100% auto;
-		background-position: center,								center,														top center;
-		background-repeat: repeat,								no-repeat,													no-repeat;
-		background-attachment: fixed,								fixed,														fixed;
+		background-image: url("../../images/Portfolio Background.png");
+		background-size: 100% auto;
+		background-position: top center;
+		background-repeat: repeat;
+		background-attachment: fixed;
 	}
 
 		#wrapper.fade-in:before {
@@ -35,3 +35,4 @@
 			transform: none;
 			opacity: 1;
 		}
+
