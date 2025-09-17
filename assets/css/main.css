@@ -3235,7 +3235,7 @@ input, select, textarea {
 			height: 100%;
 			background-color: #212931;
 			background-image: url("../../images/Portfolio Background.png");
-			background-size: 100% auto;
+			background-size: cover;
 			background-position: top center;
 			background-repeat: no-repeat;
 			background-attachment: fixed;
@@ -3243,7 +3243,7 @@ input, select, textarea {
 		}
 
 			#wrapper > .bg.fixed {
-				position: fixed;
+				position: top center;
 				width: 100vw;
 				height: 100vh;
 			}
@@ -3276,7 +3276,7 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: 100% auto;
+				background-size: cover;
 			}
 
 		}
@@ -4687,6 +4687,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
