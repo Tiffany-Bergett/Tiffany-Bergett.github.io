@@ -12,7 +12,7 @@
 	#wrapper {
 		background-color: #212931;
 		background-image: url("../../images/Portfolio Background.png");
-		background-size: 100% auto;
+		background-size: cover;
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -35,5 +35,6 @@
 			transform: none;
 			opacity: 1;
 		}
+
 
 
