@@ -1,4 +1,4 @@
-This is from a Template called Massively, a text-heavy, article-oriented design built around a huge background
+This is from a Template called Dimension, a text-heavy, article-oriented design built around a huge background
 image and scroll effects (powered by Scrollex).
 
 The purpose of this webpage is to increase my online presence and present myself as personable, professional, and tech-capable. It acts as a blog style Portfolio, Resume, and Cover letter.
@@ -20,6 +20,7 @@ Credits:
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
 
-Massively by HTML5 UP
+Dimension by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
