@@ -40,7 +40,18 @@
 
 				<!-- Main -->
 					<div id="main">
-
+						<style>
+							/* Style for blockquotes to make them stand out */
+							blockquote {
+								border-left: 4px solid #023E8A; 
+								padding-left: 1rem;
+								margin-left: 0;
+								font-weight: bold;
+								font-style: italic;
+								color: #0077B6; 
+							}
+						</style>
+						
 						<!-- Intro -->
 							<article id="intro">
 								<header class="major" style="text-align: center;">
@@ -223,6 +234,71 @@
                                 </ul>
                             </div>
 						</article>
+
+
+						<article id="animationmovies">
+							<header class="major" style="text-align: center;">
+								<h1>Animation Movies</h1>
+								<p>A Post-Bootcamp Competition Story</p>
+							</header>
+							<div class="box">
+								<h3>How a 4-day data competition bridged the gap between theory and practice. </h3>
+								<p>Shortly after finishing my data analytics bootcamp last year, I dove headfirst into one of my first real challenges: a 4-day, team-based data visualization competition hosted by TripleTen using data from Kaggle. The setup was simple but intense. </p>
+								<p>Our team of three was given five datasets and one open-ended prompt: find a compelling story and prepare to present it live on YouTube. We immediately had a hunch that the Spotify dataset would be the most popular choice. To stand out, we made a strategic decision to go against the grain. We chose a dataset that sparked our creativity: 80 years of animated movies. This project was the ultimate test of our new skills, forcing us to quickly move from raw data to a polished, public-facing presentation. It was a high-speed crash course in the real-world workflow of a BI team.</p>
+								
+								<h3>From Brainstorm:</h2>
+								<p>With the clock ticking, our team’s first task was to define our project. We brainstormed questions a studio executive might ask to gain a competitive edge. We focused on three core questions to guide our analysis:</p>
+								<ul>
+									<li>Which studios have truly dominated the animation industry over the years?</li>
+									<li>How has the very nature of these films (like runtime) evolved?</li>
+									<li>Does a bigger budget actually guarantee a better audience rating?</li>
+								</ul>
+
+								<h3>From Python:</h3>
+								<p>Our workflow was a perfect simulation of how a modern data team operates, blending different skills to achieve a single goal.</p>
+								<ol>
+									<li><strong>Collaborative Data Cleaning:</strong> Our team's first hurdle was the data itself. One of my teammates handled the initial prep using Python to efficiently wrangle the messy dataset, creating a pristine file for us to work with.</li>
+									<li><strong>Visualization and Storytelling in Tableau:</strong> With the clean data ready, we imported it into Tableau, which became our command center. This is where my BI skills came to life. I focused on building the core visualizations like bar charts, line graphs, and scatter plots that would form the foundation of our narrative.</li>
+									<li><strong>Building the Narrative in a Story:</strong> We arranged our finished visualizations into cohesive dashboards. Then, using Tableau's Story feature, we sequenced our dashboards into a step-by-step narrative that would walk our audience and the judges through our discovery process.</li>
+								</ol>
+
+								<h3>The Discoveries:</h3>
+								<p>Our Tableau dashboard revealed several clear and impactful insights that became the centerpiece of our live presentation.</p>
+									
+									<h4>Insight 1: A Genre Showdown Through the Decades</h4>
+									<p>Our analysis of genre trends revealed a fascinating shift in audience taste over time. We created a line chart tracking the most produced genres for each decade, which clearly showed that Comedy was the undisputed king of animation until the 1970s. From that point on, Family films took over as the dominant genre. Our data also captured a surprising anomaly: a brief but sharp spike in Documentaries right at the beginning of the pandemic, reflecting a unique moment in viewing history.</p>
+									<div class="image fit">
+										<img src="images/Blog/AM1.PNG" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/>
+									</div>
+
+									<h4>Insight 2: We're Watching Longer Movies</h4>
+									<p>A line chart tracking the average runtime of animated films per decade revealed a distinct upward trend, showing how storytelling and audience expectations have evolved from the 75-minute features of the 1940s to the 100+ minute epics of today.</p>
+									<div class="image fit">
+										<img src="images/Blog/AM2.PNG" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/>
+									</div>
+
+									<h4>Insight 3: Bigger Budgets, Bigger Box Office</h4>
+									<p>Our final Tableau scatter plot mapped production budgets against total revenue and delivered a critical business insight: there was a strong positive correlation. This visual was key in our presentation. It demonstrated that, generally, as a studio's investment in a film increases, so does the potential for higher box office revenue. For an executive, this reinforces the strategy that larger investments in tent-pole animated features are a sound financial bet.</p>
+									<div class="image fit">
+										<img src="images/Blog/AM3.PNG" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/>
+									</div>
+									
+								<h3>To Infinity!:</h3>
+								<p>Presenting our Tableau story live on YouTube was a nerve-wracking but incredibly rewarding experience. This competition, coming so soon after my bootcamp, was a crucial bridge between theory and practice.</p>
+									<blockquote>
+										It taught me the vital rhythm of a BI project: taking the clean data from an analyst, diving deep into it with a tool like Tableau, and emerging with a clear, compelling story that can inform and persuade an audience.
+									</blockquote>
+								<p>It solidified that this is exactly where my skills shine. My psychology background pushes me to find the 'why' in the data, and my BI training allows me to build the story that delivers the answer.</p>
+								
+								<h3>Ready to see the work behind the story?</h3>
+									<a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/Animation%20Movies" class="button">GitHub Portfolio</a> <a href="https://www.youtube.com/live/rWTYgq_3ER4?si=fNs4AeeffGvZo9k8" class="button">YouTube Recording</a>
+								<hr>
+								<h4>Resources for Your Career Journey:</h4>
+                                <p>My foundation in data analytics came from the Business Intelligence Analyst boot camp at <strong>TripleTen</strong>. If you're looking to acquire the in-demand skills needed for a career in tech, check out their program. You can use my <a href="https://referral.tripleten.com/ueB5ZMPU" class="button"> Referral Link</a> for more information.</li>
+                            </div>
+						</article>
+
+						
 						<article id="crewtrackersoftware">
 							<header class="major" style="text-align: center;">
 								<h1>CrewTracker Software Project</h1>
@@ -790,7 +866,7 @@
 									<br/>
 									<nav>
 										<ul class="actions special">
-											<li><a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/Animation%20Movies" class="button">View Project</a></li>
+											<li><a href="#animationmovies" class="button">View Project's Blog</a></li>
 										</ul>
 									</nav>
 								</article>
@@ -934,4 +1010,5 @@
 			<script src="assets/js/main.js"></script>
 	</body>
 </html>
+
 
