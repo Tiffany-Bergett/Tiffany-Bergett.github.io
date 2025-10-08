@@ -5,303 +5,449 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Tiffany Bergett Tableau</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+    <title>Tiffany Bergett Tableau</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="content">
-							<div class="inner">
-								<h1>Tableau for Data Storytelling</h1>
-								<p>A collection of projects dedicated to the art of data storytelling, using Tableau to transform complex datasets into compelling visual essays and interactive dashboards that drive understanding and action.</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="index.html">Home Page</a></li>
-							</ul>
-						</nav>
-					</header>
+<body class="is-preload">
 
-				<!-- Main Content -->
-					<div id="main">
-						<style>
-							/* Style for blockquotes to make them stand out */
-							blockquote {
-								border-left: 4px solid #023E8A; 
-								padding-left: 1rem;
-								margin-left: 0;
-								font-weight: bold;
-								font-style: italic;
-								color: #0077B6; 
-							}
-						</style>
-						
-						<!--Blog-->
-                            <!--
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="content">
+                <div class="inner">
+                    <h1>Tableau for Data Storytelling</h1>
+                    <p>A collection of projects dedicated to the art of data storytelling, using Tableau to transform
+                        complex datasets into compelling visual essays and interactive dashboards that drive
+                        understanding and action.</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <div id="main">
+            <style>
+                /* Style for blockquotes to make them stand out */
+                blockquote {
+                    border-left: 4px solid #023E8A;
+                    padding-left: 1rem;
+                    margin-left: 0;
+                    font-weight: bold;
+                    font-style: italic;
+                    color: #0077B6;
+                }
+            </style>
+
+            <!--Blog-->
+            <!--
                             Featured Blog in comment mode: PUGET SOUND
                             -->
 
-                            <article id="animationmovies">
-                                <header class="major" style="text-align: center;">
-                                    <h1>Animation Movies</h1>
-                                    <p>A Post-Bootcamp Competition Story</p>
-                                </header>
-                                <div class="box">
-                                    <h3>How a 4-day data competition bridged the gap between theory and practice. </h3>
-                                    <p>Shortly after finishing my data analytics bootcamp last year, I dove headfirst into one of my first real challenges: a 4-day, team-based data visualization competition hosted by TripleTen using data from Kaggle. The setup was simple but intense. </p>
-                                    <p>Our team of three was given five datasets and one open-ended prompt: find a compelling story and prepare to present it live on YouTube. We immediately had a hunch that the Spotify dataset would be the most popular choice. To stand out, we made a strategic decision to go against the grain. We chose a dataset that sparked our creativity: 80 years of animated movies. This project was the ultimate test of our new skills, forcing us to quickly move from raw data to a polished, public-facing presentation. It was a high-speed crash course in the real-world workflow of a BI team.</p>
-                                    
-                                    <h3>From Brainstorm:</h2>
-                                    <p>With the clock ticking, our team’s first task was to define our project. We brainstormed questions a studio executive might ask to gain a competitive edge. We focused on three core questions to guide our analysis:</p>
-                                    <ul>
-                                        <li>Which studios have truly dominated the animation industry over the years?</li>
-                                        <li>How has the very nature of these films (like runtime) evolved?</li>
-                                        <li>Does a bigger budget actually guarantee a better audience rating?</li>
-                                    </ul>
+            <article id="animationmovies">
+                <header class="major" style="text-align: center;">
+                    <h1>Animation Movies</h1>
+                    <p>A Post-Bootcamp Competition Story</p>
+                </header>
+                <div class="box">
+                    <h3>How a 4-day data competition bridged the gap between theory and practice. </h3>
+                    <p>Shortly after finishing my data analytics bootcamp last year, I dove headfirst into one of my
+                        first real challenges: a 4-day, team-based data visualization competition hosted by TripleTen
+                        using data from Kaggle. The setup was simple but intense. </p>
+                    <p>Our team of three was given five datasets and one open-ended prompt: find a compelling story and
+                        prepare to present it live on YouTube. We immediately had a hunch that the Spotify dataset would
+                        be the most popular choice. To stand out, we made a strategic decision to go against the grain.
+                        We chose a dataset that sparked our creativity: 80 years of animated movies. This project was
+                        the ultimate test of our new skills, forcing us to quickly move from raw data to a polished,
+                        public-facing presentation. It was a high-speed crash course in the real-world workflow of a BI
+                        team.</p>
 
-                                    <h3>From Python:</h3>
-                                    <p>Our workflow was a perfect simulation of how a modern data team operates, blending different skills to achieve a single goal.</p>
-                                    <ol>
-                                        <li><strong>Collaborative Data Cleaning:</strong> Our team's first hurdle was the data itself. One of my teammates handled the initial prep using Python to efficiently wrangle the messy dataset, creating a pristine file for us to work with.</li>
-                                        <li><strong>Visualization and Storytelling in Tableau:</strong> With the clean data ready, we imported it into Tableau, which became our command center. This is where my BI skills came to life. I focused on building the core visualizations like bar charts, line graphs, and scatter plots that would form the foundation of our narrative.</li>
-                                        <li><strong>Building the Narrative in a Story:</strong> We arranged our finished visualizations into cohesive dashboards. Then, using Tableau's Story feature, we sequenced our dashboards into a step-by-step narrative that would walk our audience and the judges through our discovery process.</li>
-                                    </ol>
+                    <h3>From Brainstorm:</h2>
+                        <p>With the clock ticking, our team’s first task was to define our project. We brainstormed
+                            questions a studio executive might ask to gain a competitive edge. We focused on three core
+                            questions to guide our analysis:</p>
+                        <ul>
+                            <li>Which studios have truly dominated the animation industry over the years?</li>
+                            <li>How has the very nature of these films (like runtime) evolved?</li>
+                            <li>Does a bigger budget actually guarantee a better audience rating?</li>
+                        </ul>
 
-                                    <h3>The Discoveries:</h3>
-                                    <p>Our Tableau dashboard revealed several clear and impactful insights that became the centerpiece of our live presentation.</p>
-                                        
-                                        <h4>Insight 1: A Genre Showdown Through the Decades</h4>
-                                        <p>Our analysis of genre trends revealed a fascinating shift in audience taste over time. We created a line chart tracking the most produced genres for each decade, which clearly showed that Comedy was the undisputed king of animation until the 1970s. From that point on, Family films took over as the dominant genre. Our data also captured a surprising anomaly: a brief but sharp spike in Documentaries right at the beginning of the pandemic, reflecting a unique moment in viewing history.</p>
-                                        <div class="image fit">
-                                            <img src="images/Blog/AM1.PNG" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/>
-                                        </div>
+                        <h3>From Python:</h3>
+                        <p>Our workflow was a perfect simulation of how a modern data team operates, blending different
+                            skills to achieve a single goal.</p>
+                        <ol>
+                            <li><strong>Collaborative Data Cleaning:</strong> Our team's first hurdle was the data
+                                itself. One of my teammates handled the initial prep using Python to efficiently wrangle
+                                the messy dataset, creating a pristine file for us to work with.</li>
+                            <li><strong>Visualization and Storytelling in Tableau:</strong> With the clean data ready,
+                                we imported it into Tableau, which became our command center. This is where my BI skills
+                                came to life. I focused on building the core visualizations like bar charts, line
+                                graphs, and scatter plots that would form the foundation of our narrative.</li>
+                            <li><strong>Building the Narrative in a Story:</strong> We arranged our finished
+                                visualizations into cohesive dashboards. Then, using Tableau's Story feature, we
+                                sequenced our dashboards into a step-by-step narrative that would walk our audience and
+                                the judges through our discovery process.</li>
+                        </ol>
 
-                                        <h4>Insight 2: We're Watching Longer Movies</h4>
-                                        <p>A line chart tracking the average runtime of animated films per decade revealed a distinct upward trend, showing how storytelling and audience expectations have evolved from the 75-minute features of the 1940s to the 100+ minute epics of today.</p>
-                                        <div class="image fit">
-                                            <img src="images/Blog/AM2.PNG" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/>
-                                        </div>
+                        <h3>The Discoveries:</h3>
+                        <p>Our Tableau dashboard revealed several clear and impactful insights that became the
+                            centerpiece of our live presentation.</p>
 
-                                        <h4>Insight 3: Bigger Budgets, Bigger Box Office</h4>
-                                        <p>Our final Tableau scatter plot mapped production budgets against total revenue and delivered a critical business insight: there was a strong positive correlation. This visual was key in our presentation. It demonstrated that, generally, as a studio's investment in a film increases, so does the potential for higher box office revenue. For an executive, this reinforces the strategy that larger investments in tent-pole animated features are a sound financial bet.</p>
-                                        <div class="image fit">
-                                            <img src="images/Blog/AM3.PNG" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/>
-                                        </div>
-                                        
-                                    <h3>To Infinity!:</h3>
-                                    <p>Presenting our Tableau story live on YouTube was a nerve-wracking but incredibly rewarding experience. This competition, coming so soon after my bootcamp, was a crucial bridge between theory and practice.</p>
-                                        <blockquote>
-                                            It taught me the vital rhythm of a BI project: taking the clean data from an analyst, diving deep into it with a tool like Tableau, and emerging with a clear, compelling story that can inform and persuade an audience.
-                                        </blockquote>
-                                    <p>It solidified that this is exactly where my skills shine. My psychology background pushes me to find the 'why' in the data, and my BI training allows me to build the story that delivers the answer.</p>
-                                    
-                                    <h3>Ready to see the work behind the story?</h3>
-                                        <a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/Animation%20Movies" class="button">GitHub Portfolio</a> <a href="https://www.youtube.com/live/rWTYgq_3ER4?si=fNs4AeeffGvZo9k8" class="button">YouTube Recording</a>
-                                    <hr>
-                                    <h4>Resources for Your Career Journey:</h4>
-                                    <p>My foundation in data analytics came from the Business Intelligence Analyst boot camp at <strong>TripleTen</strong>. If you're looking to acquire the in-demand skills needed for a career in tech, check out their program. You can use my <a href="https://referral.tripleten.com/ueB5ZMPU" class="button"> Referral Link</a> for more information.</li>
-                                </div>
-                            </article>
-
-                            <article id="superstore2">
-                                <header class="major" style="text-align: center;">
-                                    <h1>SuperStore Returns Analysis</h1>
-                                    <p>A Deep Dive into Data Storytelling Using Tableau</p>
-                                </header>
-                                <div class="box">
-                                    <h3>Superstore's Return Problem</h3>
-                                    <p>In my previous project, I acted as a data consultant for Superstore, analyzing their overall sales and profitability. One major issue I uncovered was an alarmingly high rate of product returns. So, I decided to take a closer look, focusing specifically on returns and using Tableau to tell a compelling data story for Superstore's CEO. This was my fifth project in the TripleTen Business Intelligence Analytics program, and it was all about honing my skills in creating impactful dashboards and presentations.</p>
-
-                                    <h3>From Data to Narrative - The Power of Storytelling</h3>
-                                    <p>This time, my goal wasn't just to present numbers; it was to craft a narrative that would resonate with the CEO and drive action. I wanted to answer the crucial questions: Why are customers returning so many products, and what can Superstore do about it?</p>
-                                    <p>I started with the same dataset as before—a spreadsheet containing detailed information on orders and returns. After joining the relevant data, I dove into the analysis, using Tableau to visualize the data from different angles.</p>
-                                    
-                                    <h3>Uncovering the Return Culprits</h3>
-                                    <p>Through my visualizations, several key factors contributing to the high return rates emerged:</p>
-                                    <ul>
-                                        <li><u>Problem Customers:</u> I discovered several customers with exceptionally high return rates, some even returning 100% of their purchases. This suggested potential issues with customer expectations, product suitability, or even potential fraud.</li>
-                                        <li><u>Problem Products:</u> Similarly, certain products were returned at an unusually high rate, indicating potential problems with product quality, descriptions, or sizing information.</li>
-                                        <li><u>Location, Location, Location:</u> Geographic analysis revealed that certain states, particularly Utah, had significantly higher return rates than others. This hinted at possible regional differences in customer preferences, shipping issues, or other location-specific factors.</li>
-                                        <li><u>Seasonal Spikes:</u> I also found that returns spiked in August and September, following a period of increased purchases. This suggested a connection between promotional periods or seasonal buying habits and returns.</li>
-                                    </ul>
-
-                                    <h3>Recommendations for a Return-Free Future (Almost!)</h3>
-                                    <p>Based on these findings, I presented the CEO with the following recommendations, packaged in a clear and compelling Tableau story:</p>
-                                    <ul>
-                                        <li><u>Targeted Employee Training:</u>  I suggested providing additional training to the technology department to better assist customers in selecting the right products. This could involve improving product knowledge, providing better online resources, or offering personalized recommendations.</li>
-                                        <li><u>Customer Outreach:</u> For customers with 100% return rates, I recommended direct outreach to understand the reasons behind their returns. This feedback could provide valuable insights into systemic issues and inform necessary changes to the website, shipping processes, or other areas.</li>
-                                        <li><u>Immediate Action on Problem Products:</u> As a triage measure, I recommended immediately halting sales of the products with consistently high return rates. This would stop the bleeding and allow time for a more thorough investigation.</li>
-                                        <li><u>Proactive Product Information Improvements:</u> I suggested a focused effort to improve product information, including more detailed descriptions, accurate size guides, and encouraging customer reviews through social media collaborations. This would help customers make more informed purchasing decisions and reduce the likelihood of returns.</li>
-                                        <li><u>Policy and Promotion Adjustments:</u> Finally, I recommended considering stricter return policies or implementing return fees for purchases made in problematic states. I also suggested adjusting promotional strategies, perhaps shifting from discounts to value-added offers like free shipping, especially during peak seasons.</li>
-                                    </ul>
-                                    
-                                    <h3>The Power of Data Storytelling</h3>
-                                    <p>This project was a fantastic opportunity to showcase not just my data analysis skills but also my ability to communicate complex information effectively through data storytelling. By creating a compelling narrative with clear visualizations, I aimed to provide Superstore's CEO with the insights needed to make informed decisions and address their return problem.</p>
-
-                                    <p>Want to see the Data Story?
-                                        You can explore the interactive dashboards and the full Tableau Story I created on Tableau Public by clicking the image below: </p>
-                                        <a href="https://public.tableau.com/views/SuperStoreReturns_17275522394170/Presentation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" class="image fit"><img src="images/Blog/SuperStore Returns.png" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/></a>
-
-                                        <h3>Want to Learn More?</h3>
-                                        <p>If you’re curious about Tableau or data analysis, I’ve got some resources for you:</p>
-                                        <ul>
-                                            <li>TripleTen: An online coding bootcamp that enables people with busy lives to make the transition into tech. <a href="https://referral.tripleten.com/ueB5ZMPU" class="button">My Discount Link</a></li>
-                                            <li><a href="https://www.google.com/url?sa=E&source=gmail&q=https://www.tableau.com/learn/training">Tableau's Official Learning Resource: Self directed learning</a></li>
-                                            <li><a href="https://www.youtube.com/@vizwiz">Andy Kriebel (VizWiz): YouTube Channel by a Tableau Zen Master</a></li>
-                                        </ul>
-                                        <p>I hope this gives you a fun and insightful peek into my data adventure! </p>
-                                </div>
-                            </article>
-
-                            <article id="superstore">
-                                <header class="major" style="text-align: center;">
-                                    <h1>SuperStore Consult</h1>
-                                    <p>Using Tableau to Avoid bankruptcy</p>
-                                </header>
-                                <div class="box">
-                                    <h3>Superstore on the Brink - My Data-Driven Rescue Mission!</h3>
-                                    <p>Picture this: a bustling store, shelves overflowing with products, but the cash registers are singing a sad, empty tune. That was the predicament facing Superstore in my latest project for the TripleTen Business Intelligence Analytics Program. I stepped into the role of a data-savvy consultant, armed with the power of Tableau to diagnose their financial woes and prescribe a data-driven cure.</p>
-                                    <h3>From Spreadsheet Chaos to Visual Clarity</h3>
-                                    <p>My adventure began with a massive Excel spreadsheet—a data goldmine, but in its raw form, it was a bit like a tangled ball of yarn. My first order of business was to untangle that yarn, joining different datasets and organizing the information into a usable format. Think of it as preparing the ingredients for a delicious data dish!</p>
-                                    <h3>Tableau Time - Turning Numbers into Narratives</h3>
-                                    <p>With the data prepped and ready, I unleashed the magic of Tableau, a fantastic data visualization tool. This is where the real fun began! I transformed rows and columns of numbers into engaging charts, graphs, and interactive dashboards that told a compelling story. Here's what I uncovered:</p>
-                                    <ul>
-                                        <li><u>Profit Hotspots and Cold Zones:</u> I zoomed in on different product categories and regions to pinpoint where Superstore was making money and where they were losing it. It turned out that Office Supplies and Technology were the heroes in the West Region, while Furniture was dragging down profits in the Central Region. Some product subcategories, like Copiers, Phones, and Accessories, were consistent winners, while others, like Tables, Bookcases, and Supplies, were consistently underperforming. It was like discovering hidden treasure and uncovering hidden traps!</li>
-                                        <li><u>Advertising Alchemy:</u> I analyzed sales trends over time to identify the sweet spots for advertising. Turns out, timing is everything! I recommended focusing advertising efforts in Indiana during October (spooky good deals!), Vermont during November (pre-holiday shopping frenzy!), and Washington during March (spring cleaning bonanza!).</li>
-                                        <li><u>The Return of the Returns:</u> This was the biggest "uh-oh" moment of the analysis. Product returns were a major drain on profits, with some products seeing return rates as high as 100%! Yikes! I also identified some customers who seemed to be professional returners. Time to investigate!</li>
-                                    </ul>
-                                    <h3>My Data-Driven Prescription for Profitability</h3>
-                                    <p>Based on my data-driven detective work, I presented Superstore with a set of recommendations to get them back in the black:</p>
-                                    <ul>
-                                        <li><u>Fuel the Fire:</u> Keep investing in the profitable product categories and regions. Don't fix what ain't broken!</li>
-                                        <li><u>Address the Duds:</u> For the loss-generating areas, it's time for some serious soul-searching. Are the products priced wrong? Is there a quality issue? Should they be discontinued altogether? It's time to make some tough decisions.</li>
-                                        <li><u>Smart Advertising, Not Just More Advertising:</u> Targeted campaigns are key! By focusing on the right time and the right place, Superstore can get more bang for their advertising buck.</li>
-                                        <li><u>Tame the Returns:</u> High return rates are a red flag. Investigating the root causes and implementing strategies to reduce returns is essential. Maybe it's time for clearer product descriptions, better quality control, or a review of the return policy.</li>
-                                    </ul>
-                                    <p>This project was a fantastic opportunity to see how data visualization can transform a struggling business. By turning raw data into clear and engaging visuals, I gave Superstore the insights they needed to chart a course toward a profitable future.</p>
-                                    <p>Want to see the visual evidence?
-                                    You can explore the interactive dashboards I created on Tableau Public by clicking the image below: </p>
-                                    <a href="https://public.tableau.com/views/SuperStoreConsult/ProfitLossbySubcategory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" class="image fit"><img src="images/Blog/SuperStore Consult.png" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/></a>
-                                    <h3>Want to Learn More?</h3>
-                                    <p>If you’re curious about Tableau or data analysis, I’ve got some resources for you:</p>
-                                    <ul>
-                                        <li>TripleTen: An online coding bootcamp that enables people with busy lives to make the transition into tech. <a href="https://referral.tripleten.com/ueB5ZMPU" class="button">My Discount Link</a></li>
-                                        <li><a href="https://www.google.com/url?sa=E&source=gmail&q=https://www.tableau.com/learn/training">Tableau's Official Learning Resource: Self directed learning</a></li>
-                                        <li><a href="https://www.youtube.com/@vizwiz">Andy Kriebel (VizWiz): YouTube Channel by a Tableau Zen Master</a></li>
-                                    </ul>
-                                    <p>I hope this gives you a fun and insightful peek into my data adventure! </p>
-                                </div>
-                            </article>
-
-					</div>
-
-                    <!--Project List-->
-                        <!-- <hr>
-                        <div class="box" style="text-align: center;">
-                            <article>
-                                <header>
-                                    <span class="date">September 2024</span>
-                                    <h2>Puget Sound Water Quality</h2>
-                                    <h3>Environmental Analysis</h3>
-                                    <p>This project was a Code Jam Competition. It was a light-hearted team project to create a visually compelling story from a provided dataset in 4 days to showcase collaboration skills via Tableau.</p>
-                                </header>
-                                    <img src="images/ProjectPics/PugetSound.jpg" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/>
-                                <br/>
-                                <nav>
-                                    <ul class="actions special">
-                                        <li><a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/Puget%20Sound" class="button">View Project</a></li>
-                                        <li><a href="#BLOG" class="button">View Blog</a></li>
-                                    </ul>
-                                </nav>
-                            </article>
-                        </div> -->
-
-                        <hr>
-                        <div class="box" style="text-align: center;">
-                            <article>
-                                <header>
-                                    <span class="date">April 2024</span>
-                                    <h2>Animation Movies</h2>
-                                    <h3>Film Analysis</h3>
-                                    <p>This project was a Code Jam Competition. It was a light-hearted team project to create a visually compelling story from a provided dataset in 4 days to showcase collaboration skills via Tableau.</p>
-                                </header>
-                                    <img src="images/ProjectPics/Animation.png" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/>
-                                <br/>
-                                <nav>
-                                    <ul class="actions special">
-                                        <li><a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/Animation%20Movies" class="button">View Project</a></li>
-                                        <li><a href="#animationmovies" class="button">View Blog</a></li>
-                                    </ul>
-                                </nav>
-                            </article>
+                        <h4>Insight 1: A Genre Showdown Through the Decades</h4>
+                        <p>Our analysis of genre trends revealed a fascinating shift in audience taste over time. We
+                            created a line chart tracking the most produced genres for each decade, which clearly showed
+                            that Comedy was the undisputed king of animation until the 1970s. From that point on, Family
+                            films took over as the dominant genre. Our data also captured a surprising anomaly: a brief
+                            but sharp spike in Documentaries right at the beginning of the pandemic, reflecting a unique
+                            moment in viewing history.</p>
+                        <div class="image fit">
+                            <img src="images/Blog/AM1.PNG" alt=""
+                                style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;" />
                         </div>
 
-                        <hr>
-                        <div class="box" style="text-align: center;">
-                            <article>
-                                <header>
-                                    <span class="date">December 2023</span>
-                                    <h2>SuperStore</h2>
-                                    <h3>Returns Analysis</h3>
-                                    <p>An additional analysis for SuperStore. Focusing on Product Return Trends via Tableau.</p>
-                                </header>
-                                    <img src="images/ProjectPics/SuperStore.png" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/>
-                                <br/>
-                                <nav>
-                                    <ul class="actions special">
-                                        <li><a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/SuperStore%20Returns" class="button">View Project</a></li>
-                                        <li><a href="#superstore2" class="button">View Blog</a></li>
-                                    </ul>
-                                </nav>
-                            </article> 
+                        <h4>Insight 2: We're Watching Longer Movies</h4>
+                        <p>A line chart tracking the average runtime of animated films per decade revealed a distinct
+                            upward trend, showing how storytelling and audience expectations have evolved from the
+                            75-minute features of the 1940s to the 100+ minute epics of today.</p>
+                        <div class="image fit">
+                            <img src="images/Blog/AM2.PNG" alt=""
+                                style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;" />
                         </div>
 
-                        <hr>
-                        <div class="box" style="text-align: center;">
-                            <article>
-                                <header>
-                                    <span class="date">November 2023</span>
-                                    <h2>SuperStore</h2>
-                                    <h3>Operational Review</h3>
-                                    <p>The project task was to consult on SuperStore's operations and increase profitability to avoid bankruptcy via Tableau.</p>
-                                </header>
-                                    <img src="images/ProjectPics/SuperStore.png" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/>
-                                <br/>
-                                <nav>
-                                    <ul class="actions special">
-                                        <li><a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/SuperStore%20Consult" class="button">View Project</a></li>
-                                        <li><a href="#superstore" class="button">View Blog</a></li>
-                                    </ul>
-                                </nav>
-                            </article> 
+                        <h4>Insight 3: Bigger Budgets, Bigger Box Office</h4>
+                        <p>Our final Tableau scatter plot mapped production budgets against total revenue and delivered
+                            a critical business insight: there was a strong positive correlation. This visual was key in
+                            our presentation. It demonstrated that, generally, as a studio's investment in a film
+                            increases, so does the potential for higher box office revenue. For an executive, this
+                            reinforces the strategy that larger investments in tent-pole animated features are a sound
+                            financial bet.</p>
+                        <div class="image fit">
+                            <img src="images/Blog/AM3.PNG" alt=""
+                                style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;" />
                         </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Tiffany Bergett. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+                        <h3>To Infinity!:</h3>
+                        <p>Presenting our Tableau story live on YouTube was a nerve-wracking but incredibly rewarding
+                            experience. This competition, coming so soon after my bootcamp, was a crucial bridge between
+                            theory and practice.</p>
+                        <blockquote>
+                            It taught me the vital rhythm of a BI project: taking the clean data from an analyst, diving
+                            deep into it with a tool like Tableau, and emerging with a clear, compelling story that can
+                            inform and persuade an audience.
+                        </blockquote>
+                        <p>It solidified that this is exactly where my skills shine. My psychology background pushes me
+                            to find the 'why' in the data, and my BI training allows me to build the story that delivers
+                            the answer.</p>
 
-			</div>
+                        <h3>Ready to see the work behind the story?</h3>
+                        <a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/Animation%20Movies"
+                            class="button">GitHub Portfolio</a> <a
+                            href="https://www.youtube.com/live/rWTYgq_3ER4?si=fNs4AeeffGvZo9k8" class="button">YouTube
+                            Recording</a>
+                        <hr>
+                        <h4>Resources for Your Career Journey:</h4>
+                        <p>My foundation in data analytics came from the Business Intelligence Analyst boot camp at
+                            <strong>TripleTen</strong>. If you're looking to acquire the in-demand skills needed for a
+                            career in tech, check out their program. You can use my <a
+                                href="https://referral.tripleten.com/ueB5ZMPU" class="button"> Referral Link</a> for
+                            more information.</li>
+                </div>
+            </article>
 
-		<!-- BG -->
-			<div id="bg"></div>
+            <article id="superstore2">
+                <header class="major" style="text-align: center;">
+                    <h1>SuperStore Returns Analysis</h1>
+                    <p>A Deep Dive into Data Storytelling Using Tableau</p>
+                </header>
+                <div class="box">
+                    <h3>Superstore's Return Problem</h3>
+                    <p>In my previous project, I acted as a data consultant for Superstore, analyzing their overall
+                        sales and profitability. One major issue I uncovered was an alarmingly high rate of product
+                        returns. So, I decided to take a closer look, focusing specifically on returns and using Tableau
+                        to tell a compelling data story for Superstore's CEO. This was my fifth project in the TripleTen
+                        Business Intelligence Analytics program, and it was all about honing my skills in creating
+                        impactful dashboards and presentations.</p>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                    <h3>From Data to Narrative - The Power of Storytelling</h3>
+                    <p>This time, my goal wasn't just to present numbers; it was to craft a narrative that would
+                        resonate with the CEO and drive action. I wanted to answer the crucial questions: Why are
+                        customers returning so many products, and what can Superstore do about it?</p>
+                    <p>I started with the same dataset as before—a spreadsheet containing detailed information on orders
+                        and returns. After joining the relevant data, I dove into the analysis, using Tableau to
+                        visualize the data from different angles.</p>
 
-	</body>
+                    <h3>Uncovering the Return Culprits</h3>
+                    <p>Through my visualizations, several key factors contributing to the high return rates emerged:</p>
+                    <ul>
+                        <li><u>Problem Customers:</u> I discovered several customers with exceptionally high return
+                            rates, some even returning 100% of their purchases. This suggested potential issues with
+                            customer expectations, product suitability, or even potential fraud.</li>
+                        <li><u>Problem Products:</u> Similarly, certain products were returned at an unusually high
+                            rate, indicating potential problems with product quality, descriptions, or sizing
+                            information.</li>
+                        <li><u>Location, Location, Location:</u> Geographic analysis revealed that certain states,
+                            particularly Utah, had significantly higher return rates than others. This hinted at
+                            possible regional differences in customer preferences, shipping issues, or other
+                            location-specific factors.</li>
+                        <li><u>Seasonal Spikes:</u> I also found that returns spiked in August and September, following
+                            a period of increased purchases. This suggested a connection between promotional periods or
+                            seasonal buying habits and returns.</li>
+                    </ul>
+
+                    <h3>Recommendations for a Return-Free Future (Almost!)</h3>
+                    <p>Based on these findings, I presented the CEO with the following recommendations, packaged in a
+                        clear and compelling Tableau story:</p>
+                    <ul>
+                        <li><u>Targeted Employee Training:</u> I suggested providing additional training to the
+                            technology department to better assist customers in selecting the right products. This could
+                            involve improving product knowledge, providing better online resources, or offering
+                            personalized recommendations.</li>
+                        <li><u>Customer Outreach:</u> For customers with 100% return rates, I recommended direct
+                            outreach to understand the reasons behind their returns. This feedback could provide
+                            valuable insights into systemic issues and inform necessary changes to the website, shipping
+                            processes, or other areas.</li>
+                        <li><u>Immediate Action on Problem Products:</u> As a triage measure, I recommended immediately
+                            halting sales of the products with consistently high return rates. This would stop the
+                            bleeding and allow time for a more thorough investigation.</li>
+                        <li><u>Proactive Product Information Improvements:</u> I suggested a focused effort to improve
+                            product information, including more detailed descriptions, accurate size guides, and
+                            encouraging customer reviews through social media collaborations. This would help customers
+                            make more informed purchasing decisions and reduce the likelihood of returns.</li>
+                        <li><u>Policy and Promotion Adjustments:</u> Finally, I recommended considering stricter return
+                            policies or implementing return fees for purchases made in problematic states. I also
+                            suggested adjusting promotional strategies, perhaps shifting from discounts to value-added
+                            offers like free shipping, especially during peak seasons.</li>
+                    </ul>
+
+                    <h3>The Power of Data Storytelling</h3>
+                    <p>This project was a fantastic opportunity to showcase not just my data analysis skills but also my
+                        ability to communicate complex information effectively through data storytelling. By creating a
+                        compelling narrative with clear visualizations, I aimed to provide Superstore's CEO with the
+                        insights needed to make informed decisions and address their return problem.</p>
+
+                    <p>Want to see the Data Story?
+                        You can explore the interactive dashboards and the full Tableau Story I created on Tableau
+                        Public by clicking the image below: </p>
+                    <a href="https://public.tableau.com/views/SuperStoreReturns_17275522394170/Presentation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+                        class="image fit"><img src="images/Blog/SuperStore Returns.png" alt=""
+                            style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;" /></a>
+
+                    <h3>Want to Learn More?</h3>
+                    <p>If you’re curious about Tableau or data analysis, I’ve got some resources for you:</p>
+                    <ul>
+                        <li>TripleTen: An online coding bootcamp that enables people with busy lives to make the
+                            transition into tech. <a href="https://referral.tripleten.com/ueB5ZMPU" class="button">My
+                                Discount Link</a></li>
+                        <li><a
+                                href="https://www.google.com/url?sa=E&source=gmail&q=https://www.tableau.com/learn/training">Tableau's
+                                Official Learning Resource: Self directed learning</a></li>
+                        <li><a href="https://www.youtube.com/@vizwiz">Andy Kriebel (VizWiz): YouTube Channel by a
+                                Tableau Zen Master</a></li>
+                    </ul>
+                    <p>I hope this gives you a fun and insightful peek into my data adventure! </p>
+                </div>
+            </article>
+
+            <article id="superstore">
+                <header class="major" style="text-align: center;">
+                    <h1>SuperStore Consult</h1>
+                    <p>Using Tableau to Avoid bankruptcy</p>
+                </header>
+                <div class="box">
+                    <h3>Superstore on the Brink - My Data-Driven Rescue Mission!</h3>
+                    <p>Picture this: a bustling store, shelves overflowing with products, but the cash registers are
+                        singing a sad, empty tune. That was the predicament facing Superstore in my latest project for
+                        the TripleTen Business Intelligence Analytics Program. I stepped into the role of a data-savvy
+                        consultant, armed with the power of Tableau to diagnose their financial woes and prescribe a
+                        data-driven cure.</p>
+                    <h3>From Spreadsheet Chaos to Visual Clarity</h3>
+                    <p>My adventure began with a massive Excel spreadsheet—a data goldmine, but in its raw form, it was
+                        a bit like a tangled ball of yarn. My first order of business was to untangle that yarn, joining
+                        different datasets and organizing the information into a usable format. Think of it as preparing
+                        the ingredients for a delicious data dish!</p>
+                    <h3>Tableau Time - Turning Numbers into Narratives</h3>
+                    <p>With the data prepped and ready, I unleashed the magic of Tableau, a fantastic data visualization
+                        tool. This is where the real fun began! I transformed rows and columns of numbers into engaging
+                        charts, graphs, and interactive dashboards that told a compelling story. Here's what I
+                        uncovered:</p>
+                    <ul>
+                        <li><u>Profit Hotspots and Cold Zones:</u> I zoomed in on different product categories and
+                            regions to pinpoint where Superstore was making money and where they were losing it. It
+                            turned out that Office Supplies and Technology were the heroes in the West Region, while
+                            Furniture was dragging down profits in the Central Region. Some product subcategories, like
+                            Copiers, Phones, and Accessories, were consistent winners, while others, like Tables,
+                            Bookcases, and Supplies, were consistently underperforming. It was like discovering hidden
+                            treasure and uncovering hidden traps!</li>
+                        <li><u>Advertising Alchemy:</u> I analyzed sales trends over time to identify the sweet spots
+                            for advertising. Turns out, timing is everything! I recommended focusing advertising efforts
+                            in Indiana during October (spooky good deals!), Vermont during November (pre-holiday
+                            shopping frenzy!), and Washington during March (spring cleaning bonanza!).</li>
+                        <li><u>The Return of the Returns:</u> This was the biggest "uh-oh" moment of the analysis.
+                            Product returns were a major drain on profits, with some products seeing return rates as
+                            high as 100%! Yikes! I also identified some customers who seemed to be professional
+                            returners. Time to investigate!</li>
+                    </ul>
+                    <h3>My Data-Driven Prescription for Profitability</h3>
+                    <p>Based on my data-driven detective work, I presented Superstore with a set of recommendations to
+                        get them back in the black:</p>
+                    <ul>
+                        <li><u>Fuel the Fire:</u> Keep investing in the profitable product categories and regions. Don't
+                            fix what ain't broken!</li>
+                        <li><u>Address the Duds:</u> For the loss-generating areas, it's time for some serious
+                            soul-searching. Are the products priced wrong? Is there a quality issue? Should they be
+                            discontinued altogether? It's time to make some tough decisions.</li>
+                        <li><u>Smart Advertising, Not Just More Advertising:</u> Targeted campaigns are key! By focusing
+                            on the right time and the right place, Superstore can get more bang for their advertising
+                            buck.</li>
+                        <li><u>Tame the Returns:</u> High return rates are a red flag. Investigating the root causes and
+                            implementing strategies to reduce returns is essential. Maybe it's time for clearer product
+                            descriptions, better quality control, or a review of the return policy.</li>
+                    </ul>
+                    <p>This project was a fantastic opportunity to see how data visualization can transform a struggling
+                        business. By turning raw data into clear and engaging visuals, I gave Superstore the insights
+                        they needed to chart a course toward a profitable future.</p>
+                    <p>Want to see the visual evidence?
+                        You can explore the interactive dashboards I created on Tableau Public by clicking the image
+                        below: </p>
+                    <a href="https://public.tableau.com/views/SuperStoreConsult/ProfitLossbySubcategory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+                        class="image fit"><img src="images/Blog/SuperStore Consult.png" alt=""
+                            style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;" /></a>
+                    <h3>Want to Learn More?</h3>
+                    <p>If you’re curious about Tableau or data analysis, I’ve got some resources for you:</p>
+                    <ul>
+                        <li>TripleTen: An online coding bootcamp that enables people with busy lives to make the
+                            transition into tech. <a href="https://referral.tripleten.com/ueB5ZMPU" class="button">My
+                                Discount Link</a></li>
+                        <li><a
+                                href="https://www.google.com/url?sa=E&source=gmail&q=https://www.tableau.com/learn/training">Tableau's
+                                Official Learning Resource: Self directed learning</a></li>
+                        <li><a href="https://www.youtube.com/@vizwiz">Andy Kriebel (VizWiz): YouTube Channel by a
+                                Tableau Zen Master</a></li>
+                    </ul>
+                    <p>I hope this gives you a fun and insightful peek into my data adventure! </p>
+                </div>
+            </article>
+
+        </div>
+
+        <!--Project List-->
+        <hr>
+        <!-- 
+            <div class="box" style="text-align: center;">
+                <article>
+                    <header>
+                        <span class="date">September 2024</span>
+                        <h2>Puget Sound Water Quality</h2>
+                        <h3>Environmental Analysis</h3>
+                        <p>This project was a Code Jam Competition. It was a light-hearted team project to create a visually compelling story from a provided dataset in 4 days to showcase collaboration skills via Tableau.</p>
+                    </header>
+                        <img src="images/ProjectPics/PugetSound.jpg" alt="" style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;"/>
+                    <br/>
+                    <nav>
+                        <ul class="actions special">
+                            <li><a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/Puget%20Sound" class="button">View Project</a></li>
+                            <li><a href="#BLOG" class="button">View Blog</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </div> -->
+
+        <div class="box" style="text-align: center;">
+            <article>
+                <header>
+                    <span class="date">April 2024</span>
+                    <h2>Animation Movies</h2>
+                    <h3>Film Analysis</h3>
+                    <p>This project was a Code Jam Competition. It was a light-hearted team project to create a visually
+                        compelling story from a provided dataset in 4 days to showcase collaboration skills via Tableau.
+                    </p>
+                </header>
+                <img src="images/ProjectPics/Animation.png" alt=""
+                    style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;" />
+                <br />
+                <nav>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/Animation%20Movies"
+                                class="button">View Project</a></li>
+                        <li><a href="#animationmovies" class="button">View Blog</a></li>
+                    </ul>
+                </nav>
+            </article>
+        </div>
+
+        <div class="box" style="text-align: center;">
+            <article>
+                <header>
+                    <span class="date">December 2023</span>
+                    <h2>SuperStore</h2>
+                    <h3>Returns Analysis</h3>
+                    <p>An additional analysis for SuperStore. Focusing on Product Return Trends via Tableau.</p>
+                </header>
+                <img src="images/ProjectPics/SuperStore.png" alt=""
+                    style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;" />
+                <br />
+                <nav>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/SuperStore%20Returns"
+                                class="button">View Project</a></li>
+                        <li><a href="#superstore2" class="button">View Blog</a></li>
+                    </ul>
+                </nav>
+            </article>
+        </div>
+
+        <div class="box" style="text-align: center;">
+            <article>
+                <header>
+                    <span class="date">November 2023</span>
+                    <h2>SuperStore</h2>
+                    <h3>Operational Review</h3>
+                    <p>The project task was to consult on SuperStore's operations and increase profitability to avoid
+                        bankruptcy via Tableau.</p>
+                </header>
+                <img src="images/ProjectPics/SuperStore.png" alt=""
+                    style="width: 50%; max-width: 800px; height: auto; display: block; margin: 0 auto;" />
+                <br />
+                <nav>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/Tiffany-Bergett/BI_Analytic_Projects/tree/main/SuperStore%20Consult"
+                                class="button">View Project</a></li>
+                        <li><a href="#superstore" class="button">View Blog</a></li>
+                    </ul>
+                </nav>
+            </article>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright">&copy; Tiffany Bergett. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        </footer>
+
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
