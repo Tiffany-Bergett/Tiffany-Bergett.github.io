@@ -1272,13 +1272,13 @@ input, select, textarea {
 			position: relative;
 			margin-top: 3.5rem;
 		}
-
+					
 			#header > *:before {
 				content: '';
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
-				left: calc(50% - 1px);
+				left: 50%;
 				width: 1px;
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
@@ -1322,7 +1322,7 @@ input, select, textarea {
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
-				max-height: 40rem;
+				/*max-height: 40rem;*/
 				overflow: hidden;
 			}
 
