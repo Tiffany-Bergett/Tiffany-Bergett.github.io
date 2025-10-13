@@ -1668,3 +1668,102 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* --- Custom Portfolio Styles --- */
+
+/* 1. Projects Grid Container */
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+/* 2. Individual Project Box Styling */
+.projects-grid .box {
+    flex: 1 1 45%;
+    max-width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-grid .box article {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.projects-grid .box article nav {
+    margin-top: auto;
+}
+
+/* 3. Skill Tags */
+.tags-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.tags-container span {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+/* --- START: NEW RESPONSIVE BUTTON FIX --- */
+
+/* 4. Make ALL button containers flexible */
+.projects-grid .actions.special {
+    display: flex;
+    flex-wrap: wrap; /* Allows buttons to stack if needed */
+    justify-content: center;
+    gap: 1rem; /* Space between buttons */
+}
+
+/* 5. Make individual list items within the container flexible */
+.projects-grid .actions.special li {
+    padding: 0 !important; /* Override template's default padding */
+    display: flex;
+}
+
+.projects-grid .actions.special .button {
+    flex: 1; /* Allow buttons to grow and fill space */
+    white-space: normal; /* Allow button text to wrap if necessary */
+    height: auto; /* Allow height to adjust to wrapped text */
+    min-height: 2.75rem; /* Maintain minimum button height */
+    line-height: 1.5;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* 6. Responsive Text Swapping Logic */
+.mobile-only {
+    display: none !important; /* Hide mobile button by default */
+}
+
+/* Media Query for mobile devices (matches template's breakpoint) */
+@media screen and (max-width: 736px) {
+    .projects-grid .box {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .desktop-only {
+        display: none !important; /* Hide desktop button on small screens */
+    }
+
+    .mobile-only {
+        display: inline-block !important; /* Show mobile button on small screens */
+    }
+}
+/* --- END: NEW RESPONSIVE BUTTON FIX --- */
