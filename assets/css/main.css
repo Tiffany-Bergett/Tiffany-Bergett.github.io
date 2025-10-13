@@ -1894,6 +1894,14 @@ body.is-preload #footer {
 	}
 }
 
+/* 7. Fixes the "Home Page" button width on project pages in mobile view */
+@media screen and (max-width: 480px) {
+    .project-page #header nav ul {
+        width: auto; /* Remove the fixed width */
+        min-width: 10rem; /* Ensure it's wide enough for the text */
+    }
+}
+
 /* --- END: NEW RESPONSIVE BUTTON FIX --- */
 
 /* --- START: Project Page Header Fix --- */
@@ -1901,6 +1909,15 @@ body.is-preload #footer {
 /* 8. Hide the vertical line on project category pages */
 .project-page #header > nav:before {
     display: none !important;
+}
+
+/* --- END: NEW FIX --- */
+
+/* --- START: Page Delay Fix --- */
+
+/* 9. Reduce the initial page load animation delay */
+#bg:before {
+    transition-delay: 0s !important;
 }
 
 /* --- END: NEW FIX --- */
