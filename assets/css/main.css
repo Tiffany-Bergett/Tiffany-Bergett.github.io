@@ -1395,7 +1395,7 @@ body.is-preload #bg:before {
 	display: block;
 	position: absolute;
 	top: calc(-3.5rem - 1px);
-	left: 50%;
+	left: calc(50% + 1px);
 	width: 1px;
 	height: calc(3.5rem + 1px);
 	background: #ffffff;
@@ -1467,10 +1467,6 @@ body.is-preload #bg:before {
 
 }
 
-.buttonup {
-	width: 30rem;
-	margin: auto;
-}
 
 #header nav ul li {
 	padding-left: 0;
@@ -1786,6 +1782,15 @@ body.is-preload #footer {
 	opacity: 0;
 }
 
+/* --- NEW MOD --- */
+
+.buttonup {
+	width: 30rem;
+	margin: auto;
+}
+
+/* --- END NEW MOD --- */
+
 /* --- Custom Portfolio Styles --- */
 
 /* 1. Projects Grid Container */
@@ -1913,3 +1918,9 @@ body.is-preload #footer {
 
 /* --- END: NEW FIX --- */
 
+/* Fix for Resume/Journey button container width */
+.main-nav ul {
+	display: inline-flex; /* Makes the container shrink-wrap its content */
+	width: 15rem;
+	margin: auto;
+}
